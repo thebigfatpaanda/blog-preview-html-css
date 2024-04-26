@@ -1,0 +1,115 @@
+body{
+    background-color:#f7d050;
+}
+
+#div1{
+    width: 25%;
+    height: auto;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    border-radius:20px;
+    border: 1px solid black;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 13px 15px rgb(0, 0, 0);
+}
+
+#img1{
+   border-radius:20px;
+   margin-top:1%;
+   width:95%; 
+   height:auto;
+   margin-left:10px;
+   
+}
+
+.learning{
+    width:100px;
+    height:30px;
+    background-color:#f7d050;
+    border-radius:10px;
+    position:relative;
+    bottom:20px;
+    left:10px;
+    font-family:"figtree";
+    padding-top:7px;    
+    font-weight:800;
+    text-align:center;
+}
+
+#img2,h3,h2,#p1{
+    position:relative;
+    bottom:20px;
+    left:10px;
+    font-family:"figtree";
+}
+h2{
+    font-size:30px;
+
+}
+#p1{
+    display:block;
+    width:370px;
+}
+#img2{
+    width:30px;
+    height:30px;
+}
+
+#p2{
+    display:inline;
+    position:relative;
+    bottom:28px;
+    left:20px;
+    font-family:"figtree";
+    font-weight:700;
+}
+
+@media only screen and ( width<=1440px) {
+    
+    #div1{
+        width:50%;
+        
+    }
+    #img1{
+        text-align:center;
+    }
+
+
+  }
+
+  @media only screen and ( width<=500px) {
+    
+    #div1{
+        width:90%;
+    }
+    #img1{
+        margin-left:5px;
+    }
+
+
+}
+@media only screen and ( width<=320px) {
+    
+    #div1{
+        width:100%;
+    }
+    #p1{
+        display:block;
+        width:95%;
+    }
+    
+}
+@media only screen and ( width<=700px) {
+    
+    #div1{
+        width:60%;
+    }
+    #p1{
+        display:block;
+        width:70%;
+    }
+
+}
